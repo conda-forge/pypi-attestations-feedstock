@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.30"
+  version: "0.0.31"
 
 package:
   name: pypi-attestations
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pypi-attestations/pypi_attestations-${{ version }}.tar.gz
-  sha256: 14ff13c76bbef02a483c2b77532da02bfd746b5141b881f355e06b9807434423
+  sha256: 5a2473aca7d7f65caf2c3a985691c5cf9264a97fa68c98fbae6e96320bcc7c9a
 
 build:
   number: 0
